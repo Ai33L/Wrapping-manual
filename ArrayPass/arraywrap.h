@@ -1,0 +1,1 @@
+void arraywrap(double** Q);
