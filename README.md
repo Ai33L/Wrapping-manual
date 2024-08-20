@@ -18,7 +18,7 @@ Steps to implement a wrap (See the TwoRealNum example)-
 * On the Python end, we use the C Foreign Function Interface (cffi) package to port the C function (see realbuild.py). Using the libreal.a library, this file creates a Python package called numsummodule, which can be called from Python. Note that the build also requires a header file (see realsumwarp.h), with the function name and variables listed.
 * This package can be called from Python (see realpfile.py) to compute the sum of two real numbers.
 
-The script realsumscript.sh perform the entire build and performs a test call of the function from Python. 
+* The script realsumscript.sh perform the entire build and performs a test call of the function from Python. 
 
 ### Credits
 Giridharan Sankar
